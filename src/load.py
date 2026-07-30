@@ -1,3 +1,4 @@
-save_csv(df)
+from database import insert_data
 
-save_database(df)
+def save_database(df):
+    insert_data(df)
