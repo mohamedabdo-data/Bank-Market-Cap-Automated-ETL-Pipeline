@@ -1,2 +1,8 @@
-#Pandas 
-#SQL
+pandas
+numpy
+requests
+beautifulsoup4
+lxml
+sqlalchemy
+pytest
+python-dotenv
