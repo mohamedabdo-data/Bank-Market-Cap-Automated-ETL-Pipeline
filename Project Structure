@@ -1,0 +1,9 @@
+Bank-Market-Cap-ETL/
+│
+├── bank_etl_script.py      # السكريبت الرئيسي للـ ETL
+├── Largest_banks_data.csv  # ملف البيانات الناتج 
+├── Banks.db                # قاعدة بيانات SQLite
+├── code_log.txt            # ملف سجل العمليات [cite: 2]
+├── requirements.txt        # المكتبات المطلوبة (pandas, sqlite3)
+├── .gitignore              # لإستثناء الملفات المؤقتة
+└── README.md               # التوثيق الشامل للمشروع (الأهم)
