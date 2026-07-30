@@ -1,7 +1,5 @@
-create_database()
+import sqlite3
 
-insert_data(df)
-
-read_data()
-
-delete_table()
+def create_database():
+    conn = sqlite3.connect("data/bank_market_cap.db")
+    conn.close()
