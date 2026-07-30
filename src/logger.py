@@ -1,5 +1,6 @@
-def log_info()
+import logging
 
-def log_warning()
+logging.basicConfig(level=logging.INFO)
 
-def log_error()
+def log_info(message):
+    logging.info(message)
