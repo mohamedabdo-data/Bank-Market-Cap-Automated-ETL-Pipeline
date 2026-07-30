@@ -1,0 +1,30 @@
+Bank-Market-Cap-Automated-ETL-Pipeline/
+│
+├── data/
+│   ├── banks_market_cap.csv
+│   └── bank_market_cap.db
+│
+├── logs/
+│   └── pipeline.log
+│
+├── src/
+│   ├── main.py
+│   ├── extract.py
+│   ├── transform.py
+│   ├── load.py
+│   ├── database.py
+│   ├── logger.py
+│   ├── config.py
+│   └── utils.py
+│
+├── tests/
+│   ├── test_extract.py
+│   ├── test_transform.py
+│   └── test_load.py
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+├── Dockerfile
+├── README.md
+└── LICENSE
