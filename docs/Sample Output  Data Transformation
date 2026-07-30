@@ -1,0 +1,13 @@
+## 📈 Data Transformation Overview
+
+### Input Data Format (Extract):
+* Extracting primary attributes: `Name`, `MC_USD_Billion`.
+
+### Output Data Format (Transformed & Loaded):
+The transformed data is stored with converted market capitalizations across 3 currencies:
+
+| Name | MC_USD_Billion | MC_GBP_Billion | MC_EUR_Billion | MC_INR_Billion |
+| :--- | :--- | :--- | :--- | :--- |
+| JPMorgan Chase | 400.5 | 320.40 | 372.46 | 33041.25 |
+| Bank of America | 325.2 | 260.16 | 302.44 | 26829.00 |
+| ICBC | 280.8 | 224.64 | 261.14 | 23166.00 |
